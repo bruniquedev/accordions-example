@@ -1,0 +1,23 @@
+/* 
+    Document   : print
+    Created on : Dec 30, 2016, 1:05:13 PM
+    Author     : bod
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body { 
+  visibility: hidden;
+}
+
+#table{
+	visibility: visible;
+	
+}
+
+

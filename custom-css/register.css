@@ -1,0 +1,234 @@
+  
+ body{
+	 
+	 
+	 /*background-image:url(../images/bg2.jpg);*/
+ }
+
+ #containerindex{
+
+/*background-image:url(../images/bg1.png);*/
+
+margin-top:40px;
+	
+
+ }
+ 
+#logo{
+
+
+	display:inline-block; 
+	height:37px; 
+	margin-top:-5px;
+	width:105px;
+}
+
+
+.navbar-brand{
+
+margin-left:2px;
+background-color: #ffffff;
+font-weight: bold;
+ 
+}
+
+.brand-text{
+	color:orange;
+}
+ 
+ 
+ #navigation {
+background-color: #008d4b;
+}
+ 
+ #navigation #ulnavbar > li > a{
+	 
+ color: #FFF;
+ font-weight:bold;
+
+font-family: Times New Roman, Times, serif;
+
+
+
+ }
+ 
+
+ 
+ 
+#navigation #ulnavbar > li > a:hover {
+
+ color:#bed62f;
+ 
+ }
+  
+ 
+
+#navigation #ulnavbar > li > a:hover:not(.active){color:#bed62f;}
+ 
+#navigation #ulnavbar > .active > a {
+background-color: #330066;
+color: #FFF;
+padding-bottom: 0.62em;
+border-bottom: 0.45em solid #FFF;
+}
+ 
+
+
+ #ulnavbar > li > .dropdown-toggle {
+
+	background-color:#008d4b; 
+}
+
+#ulnavbar > li > .dropdown-toggle > a:hover{
+
+	background-color:#0099ff; 
+}
+
+ .dropdown-menu{
+	background-color:#ffffff; 
+	
+}
+
+
+.dropdown-menu > li > a{
+color:#000;
+font-weight: bolder;
+}
+
+.dropdown-menu > li > a:hover {
+ color: #0099ff;
+ }
+
+
+
+
+ /*for navigation to stick at the top*/
+.sticker{
+
+position:fixed;
+top:0px;
+z-index:999999;
+width:100%;
+transition:all 3.0s ease-in-out;
+}
+ 
+.imagelogin{
+	
+	top:0;
+
+}
+
+
+#Appointmentbutton{
+		margin-top: 10px;
+padding: 3px 15px;
+background-color: #000066;
+color: #ffffff;
+border-radius:4px;
+
+}
+ #display_area{
+
+ 	text-align: center;
+ 	font-size: 16px;
+ 	font-weight: bolder;
+ 	color: red;
+ }
+
+
+
+#header{
+	text-align: center;
+}
+
+#row-register{
+	background:lightgree;
+	padding: 5px 5px;
+}
+
+
+
+ 
+
+.first-footer{
+	background:#008d4b;
+	
+}
+
+.second-footer{
+	background:#bed62f;
+	
+}
+
+#footer-link{
+	font-family: Times New Roman, Times, serif;
+	font-size: 17px;
+	color:#ffffff;
+}
+
+#footer-item{
+	
+	color:#ffffff;
+}
+
+#ul-footeritem{
+	list-style-type: square;
+	color:#ffffff;
+}
+#ul-footeritem li a{
+	color: #ffffff;
+}
+
+
+#developerpara{
+	
+text-align:right;
+color:#0000ff;	
+}
+    #copyrightpara{
+		  text-align:center;
+color:#000;
+		
+	}
+
+ 
+	
+.modal-content{
+		
+		background-color:#ffffff;
+		border-radius: 4px;
+	}
+.modal-title{
+ text-align: center;
+font-size: 20px;
+padding: 10px 10px;
+color: #ffffff;
+background-color:#008d4b;
+font-weight: bold;
+}
+	  
+	  #mail, #password{
+width: 80%;
+font-weight:bold;
+margin-left: 50px;
+}
+#submitbutton{
+margin-top: 10px;
+padding: 3px 15px;
+background-color: #000066;
+color: #ffffff;
+border-radius:4px;
+
+}
+#closebutton{
+background-color:red;	
+color: #ffffff;
+font-weight:bold;
+}
+#Loginbutton{
+	margin-top: 10px;
+padding: 3px 15px;
+background-color: #000066;
+color: #ffffff;
+border-radius:4px;
+}
